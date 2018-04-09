@@ -142,77 +142,7 @@
     </div>
 
     <!-- -->
-    <style>
-
-        #snackbar1 {
-            min-width: 250px;
-            left: 40px;
-            background-color: rgba(255, 255, 255, 0.68);
-            border: 3px outset #ff6a00;
-            color: #ff6a00;
-            text-align: center;
-            border-radius: 2px;
-            padding: 16px;
-            position: fixed;
-            z-index: 1;
-            left: 3%;
-            bottom: 30px;
-            font-size: 17px;
-            border: 15px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-           
-        }
-
-            #snackbar1 p {
-                margin-bottom: -10px;
-
-            }
-         
-
-            #snackbar1 a {
-                color: brown;
-            }
-    </style>
-    <div id="snackbar1">
-        <p><a style="cursor:pointer;" onclick="ja()">Marko Nikolić</a> - DEMO [Klijent24915] | Dostupno do 1.4.2018|00:00AM</p><br>
-        <a style="cursor:pointer;" onclick="CF()">
-            <span onclick="CF()" style="cursor:pointer;" class="glyphicon glyphicon-fullscreen"></span> CEO EKRAN
-        </a>
-    </div>
-    <script>
-        function CF() {
-            if ((document.fullScreenElement && document.fullScreenElement !== null) ||
-                (!document.mozFullScreen && !document.webkitIsFullScreen)) {
-                if (document.documentElement.requestFullScreen) {
-                    document.documentElement.requestFullScreen();
-                } else if (document.documentElement.mozRequestFullScreen) {
-                    document.documentElement.mozRequestFullScreen();
-                } else if (document.documentElement.webkitRequestFullScreen) {
-                    document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
-                }
-            } else {
-                if (document.cancelFullScreen) {
-                    document.cancelFullScreen();
-                } else if (document.mozCancelFullScreen) {
-                    document.mozCancelFullScreen();
-                } else if (document.webkitCancelFullScreen) {
-                    document.webkitCancelFullScreen();
-                }
-            }
-        }
-
-        function ja() {
-            window.location.href = 'mailto:marko.supergun@gmail.com';
-        }
-
-
-
-        document.addEventListener("contextmenu", function (e) { e.preventDefault(); }, false);
-        document.addEventListener("dragstart", function (e) { e.preventDefault() }, false);
-        document.addEventListener("selectstart", function (e) { e.preventDefault() }, false);
-
-    </script>
-
+  
     <!-- -->
 
     <script src="js/main.js"></script>
