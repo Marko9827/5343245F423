@@ -1,33 +1,4 @@
 
-
-        #snackbar1 {
-            min-width: 250px;
-            left: 40px;
-            background-color: rgba(255, 255, 255, 0.68);
-            border: 3px outset #ff6a00;
-            color: #ff6a00;
-            text-align: center;
-            border-radius: 2px;
-            padding: 16px;
-            position: fixed;
-            z-index: 1;
-            left: 3%;
-            bottom: 30px;
-            font-size: 17px;
-            border: 15px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-            border-top: 1px solid rgba(85, 85, 85, 0.68);
-        }
-
-            #snackbar1 p {
-                margin-bottom: -10px;
-
-            }
-         
-
-            #snackbar1 a {
-                color: brown;
-            }
     body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
